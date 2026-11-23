@@ -1,0 +1,16 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+.subText{
+    position: absolute;
+    width: var(--core-content-container-width);
+    text-align: center;
+    font-size: 90rem;
+    top: 290rem;
+    color: rgba(0,0,0,0.6);
+}

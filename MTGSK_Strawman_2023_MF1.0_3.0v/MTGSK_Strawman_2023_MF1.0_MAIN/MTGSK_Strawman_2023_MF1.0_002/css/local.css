@@ -1,0 +1,58 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+.pageArrow{
+	position: absolute;
+	z-index:1;
+	width:100%;
+	height:auto;
+	left: 0px;
+	top:33.85416666666667%;
+	right: 0px;
+	bottom: 0px;
+    opacity: 0;
+}
+.pageArrow img{
+	width: 100%;
+	
+	
+}
+.pageArt{
+	position: absolute;
+	z-index:3;
+	width: 28.61%;
+    height: 100%;
+    left: 38%;
+    top: 25%;
+    
+}
+.pageArt img{
+	width: 100%;
+}
+.pageAnimation{
+	position: absolute;
+	z-index:2;
+	top:33.85416666666667%;
+	opacity: 1;
+	width: 100%;
+}
+.pageArrow.load1 {
+	-webkit-transition: opacity 3s ease-in;
+	-moz-transition: opacity 3s ease-in;
+	-ms-transition: opacity 3s ease-in;
+	-o-transition: opacity 3s ease-in;
+	transition: opacity 3s ease-in;	
+	opacity: 1;
+}
+.pageArrow.load2 {
+	opacity: 1;
+}
+
+.pageAnimation img{
+	width: 100%;
+}

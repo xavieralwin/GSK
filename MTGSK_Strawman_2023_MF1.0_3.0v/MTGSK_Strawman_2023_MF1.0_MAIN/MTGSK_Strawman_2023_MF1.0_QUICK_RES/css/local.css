@@ -1,0 +1,20 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+#quickResScroll {
+    position: var(--pres-position-re);
+    height: 86%;
+    top: 12%;
+    left: 0rem;
+    display: flex;
+}
+.gskCol {
+    width: 225rem;
+    margin: 0 42rem 10rem;
+    /* display: flex; */
+}

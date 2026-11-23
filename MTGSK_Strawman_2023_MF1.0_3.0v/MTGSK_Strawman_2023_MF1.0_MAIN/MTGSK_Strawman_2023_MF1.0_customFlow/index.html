@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GSK Master Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <link rel="stylesheet" href="../shared/css/jquery-ui.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/swiper-bundle.css" type="text/css" />
+        <link rel="stylesheet" href="../shared/css/core.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/custom.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/calendar.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/custom-flow.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/presentation.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="css/local.css" type="text/css" charset="utf-8"/>
+    </head>
+    <body>
+    <div id="container" class="noSwipe" data-slide="MTGSK_Strawman_2023_MF1.0_customFlow">
+        <!-- Left and right double click navigation -->
+        <div id="doubleClickLeft" class="navBumper"></div>
+        <div id="doubleClickRight" class="navBumper"></div>
+        <!-- Portrait mode double click zoom -->
+        <div id="doubleClickCentre"></div>
+
+        <!-- slide html -->
+        
+
+        <div class="mainContent contentFrame" id="contentFrame">
+            <!--	Custom flow 	-->
+		<div class="custom-flow-container">
+			<ul id="sortable1" class="connectedSortable sortable1">
+				<li class="ui-state-default" data-index="1"></li>
+				<li class="ui-state-default" data-index="2"></li>
+				<li class="ui-state-default" data-index="3"></li>
+				<li class="ui-state-default" data-index="4"></li>
+				<li class="ui-state-default" data-index="5"></li>
+				<li class="ui-state-default" data-index="6"></li>
+				<li class="ui-state-default" data-index="7"></li>
+				<li class="ui-state-default" data-index="8"></li>
+				<li class="ui-state-default" data-index="9"></li>
+				<li class="ui-state-default" data-index="10"></li>
+			</ul>
+			<ul id="sortable2" class="connectedSortable sortable2"></ul>
+			
+			<div class="custom-flow-nav">
+				<label for="flowName" id="label-add-flow" class="label-add-flow">Flow name:</label>
+				<input type="text" id="add-flow" class="add-flow" name="flowName" placeholder="Flow name"/>
+				<input type="button" id="btn-create-flow" class="btn-create-flow" value="Create" />
+				<input type="button" id="btn-update-flow" class="btn-update-flow hidden" value="Update" />
+				<div class="custom-drop-down">
+					<input class="btn-select-flow disabled" id="btn-dropdown" type="button" value="Select" />
+					<div id="custom-flow-content" class="dropdown-content hidden">
+						<ul class="custom-flow-lists" id="custom-flow-lists"></ul>
+					</div>
+				</div>
+				<input type="button" id="btn-remove-flow" class="btn-remove-flow disabled" value="Remove" />
+				<input type="button" id="btn-cancel-flow" class="btn-cancel-flow hidden" value="Cancel" />
+				<input type="button" id="btn-reset-flow" class="btn-reset-flow disabled" value="Reset" />
+				<input type="button" id="btn-flow-start" class="btn-flow-start" value="Start" />
+			</div>	
+		</div><!--custom-flow-container-->
+        </div>
+        <!-- end of slide html -->
+
+        <!-- mtgsk html -->
+        <div class="footer">
+            <img src="../shared/media/images/footerlogo_new.png"/>
+        </div>
+        <div class="navBottom">
+            <div id="home" class="gotoSlide"></div>
+            <div id="menu" class="gotoSlide logEmbedded" data-description="Embedded Menu"></div>
+            <div id="pi" class="gotoSlide logEmbedded" data-description="Embedded PI"></div>
+            <div id="references" class="gotoSlide logEmbedded" data-description="Embedded References"></div>
+            <div id="email"></div>
+            <div id="objection" class="gotoSlide logEmbedded" data-description="Embedded Objections"></div>
+        </div>
+        <!-- end mtgsk html -->
+    </div>
+    <!-- Background settings required for pdf style portrait mode zoom -->
+    <div class="bg" id="bg"><!--<img src="media/images/background.png" height="768" />--></div>
+    <script src="../shared/js/jquery-v3.6.1.min.js"></script>
+    <script src="../shared/js/jquery-ui.js"></script>
+    <script src="../shared/js/jquery.ui.touch-punch.js"></script>
+    <script src="../shared/js/veeva-library.js"></script>
+    <script src="../shared/js/config.json"></script>
+    <script src="../shared/js/portfolioconfig.json"></script>
+    <script src="../shared/js/calendar.json"></script>
+    <script src="../shared/js/fastclick.min.js"></script>
+    <script src="../shared/js/hammer.min.js"></script>
+    <script src="../shared/js/iscroll.js"></script> 
+    <script src="../shared/js/swiper-bundle.js"></script>
+    <script src="../shared/js/qrcode.js"></script>
+    <script src="../shared/js/mt.js"></script>
+    <script src="../shared/js/calendar.js"></script>
+    <script src="js/custom-flow.js"></script>
+    <script src="../shared/js/presentation.js"></script>
+    <script src="../shared/js/race.js"></script>
+	<script src="../shared/js/Attitudinal_Segmentation.js"></script>
+    <script src="js/local.js"></script>
+    </body>
+</html>

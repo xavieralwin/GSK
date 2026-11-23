@@ -1,0 +1,279 @@
+/**************************************************/
+/* GSK Veeva Master Template - Custom CSS         */
+/**************************************************/
+/* File version              3.0                  */
+/* Last modified             01/05/2023 */
+/* Last modified by          Design Center        */
+/**************************************************/
+
+:root {
+    /* Font family */
+    --custom-font-family-1: 'HelveticaLight';
+    --custom-font-family-2: 'HelveticaMedium';
+    /* Font Color */
+    --custom-color-1:#888888;
+    /* Font sizes */
+    --custom-font-size-1: 12rem;
+    --custom-font-size-2: 16rem;
+    /* Width */
+    --custom-width-1: 44rem;
+    /* Height */
+    --custom-height-1: 44rem;
+    /* Spacing */
+    --custom-margin-btm: 10rem;
+    /* Position */
+    --custom-position-ab: absolute;
+    --custom-position-re: relative;
+}
+.topNav {
+    top: 50rem;
+    left: 80rem;
+    width: 910rem;
+    position: var(--custom-position-ab);
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    font: normal 16rem var(--custom-font-family-1);
+    z-index: 10;
+}
+
+.guideTitle {
+    position: var(--custom-position-ab);
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    font: normal 16rem var(--custom-font-family-1);
+}
+
+.quickLinkDialogMenu,
+.quickLinkDialogPi,
+.quickLinkDialogObjection,
+.quickLinkDialogQuickRes,
+.refQuickLinkDialogReferences,
+.quickLinkDialogGuide,
+.quickLinkDialogcustomQuickLinkOne,
+.quickLinkDialogcustomQuickLinkTwo,
+.quickLinkDialogcustomQuickLinkThree{
+    position: var(--custom-position-re);
+    top: 0;
+    left: 0;
+    height: auto;
+    margin-top: 50rem;
+    padding-bottom: 10rem;
+}
+
+.dialog {
+    overflow: hidden;
+}
+
+.dialog .topNav,
+.dialog .menuTitle,
+.dialog .piTitle,
+.dialog .quickresTitle,
+.dialog .objectionTitle,
+.dialog .guideTitle {
+    position: var(--custom-position-ab);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    padding: 0 5rem 5rem 5rem;
+    background-color: var(--pres-background-color-5);
+}
+
+.dialog .menuTitle,
+.dialog .piTitle,
+.dialog .quickresTitle,
+.dialog .objectionTitle,
+.dialog .guideTitle {
+    font: normal 24rem/50rem var(--custom-font-family-2);
+}
+.menuTitle, .piTitle, .quickresTitle, .objectionTitle, .guideTitle, .customquicklinkoneTitle, .customquicklinktwoTitle, .customquicklinkthreeTitle  {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    padding: 0 5rem 5rem 5rem;
+    background-color: var(--pres-background-color-5);
+    font: normal 24rem/50rem 'HelveticaMedium';
+	border-top-left-radius: var(--pres-border-radius-1);
+	border-top-right-radius: var(--pres-border-radius-1);
+    z-index: 9;
+}
+.dialog .topNav #referencesPage {
+    margin-left: 0;
+}
+
+.dialog .topNav #referencesAll {
+    margin-left: 60rem;
+}
+
+.topNav #mtgskClose {
+    position: var(--custom-position-ab);
+    background: url('../../shared/media/icons/icon_close.svg') 0 0 no-repeat;
+    background-size: 100%;
+    display:none;
+    width: var(--custom-width-1);
+    height: var(--custom-height-1);
+    right: 14rem;
+}
+
+.topNav #referencesPage {
+    position: var(--custom-position-ab);
+    background: url('../../shared/media/icons/icon_referencespage.svg') 0 0 no-repeat;
+    background-size: 100%;
+    margin-left: 0rem;
+    width: var(--custom-width-1);
+    height: var(--custom-height-1);
+}
+
+.topNav #referencesAll {
+    position: var(--custom-position-ab);
+    background: url('../../shared/media/icons/icon_referencesall.svg') 0 0 no-repeat;
+    background-size: 100%;
+    margin-left: 60rem;
+    width: var(--custom-width-1);
+    height: var(--custom-height-1);
+}
+
+.PMCode {
+    bottom: 35rem;
+    left: 25rem;
+    position: var(--custom-position-ab);
+    border: 0;
+    font: normal var(--custom-font-size-1) var(--custom-font-family-1);
+    color: var(--custom-color-1);
+    --custom-color-1:var(--pres-color-1);
+    z-index: 10;
+}
+.preparation {
+    bottom: 14rem;
+    left: 25rem;
+    position: var(--custom-position-ab);
+    border: 0;
+    font: normal var(--custom-font-size-1) var(--custom-font-family-1);
+    color: var(--custom-color-1);
+    z-index: 10;
+}
+
+#referencesScroller,
+#footnotesScroller,
+#abbreviationsScroller{
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 250rem;
+}
+
+.references,
+.footnotes, .abbreviations {
+    position: var(--custom-position-re);
+    width: 864rem;
+    margin-bottom: var(--custom-margin-btm);
+    overflow: hidden;
+}
+
+.references {
+    margin-top:30rem;
+}
+.mainContent, .uiOverlay{
+    min-height: var(--core-content-container-min-height) !important;
+    max-height: var(--core-content-container-max-height) !important;
+}
+.mainContent .references {
+    margin-top: 0;
+}
+
+#referenceList,
+#footnotesList,
+#abbreviationsList{
+    position: var(--custom-position-re);
+	width: 98%;
+}
+
+
+#referenceList li {
+    position: var(--custom-position-re);
+    left: 3rem;
+    font-size: var(--custom-font-size-2);
+    margin-bottom: var(--custom-margin-btm);
+    margin-left: 28rem;	
+}
+
+#footnotesList li, #abbreviationsList li {
+    position: var(--custom-position-re);
+    left: 2rem;
+    font-size: var(--custom-font-size-2);
+    margin-bottom: var(--custom-margin-btm);
+    list-style-type: none;
+}
+
+#referenceList li em,
+#footnotesList li em,
+#abbreviationsList li em{
+    font-style:italic;
+}
+
+.dialogBody .references,
+.dialogBody .footnotes,
+.dialogBody .abbreviations{
+    width: 95%;
+    margin-top: 0;
+}
+
+/* Allow custom reference numbering */
+#referenceList li.hasRefIndex {
+    position: var(--custom-position-re);
+    list-style-type: none;
+    margin-left: 0;
+	padding-left:40rem;
+	text-indent:-40rem;
+}
+#referenceList li span.refIndex {
+    position: var(--custom-position-re);
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 30rem;
+	text-align: right;
+	margin-right: 10rem
+}
+
+#guideScroller {
+    position: var(--custom-position-re);
+    left: 30px;
+    top: 100rem;
+    height: 80%;
+    width: 94%;
+}
+
+#guideScrollerInner{width: 96%;}
+
+/* Portfolio Page Grid */
+.navBottom div.portfolioNav {
+    display: inline-block;
+}
+.gskRow {
+    position: var(--custom-position-re);
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.gskCol {
+    position: var(--custom-position-re);
+    display: inline-block;
+}
+
+h5{font-size: 14rem;}
+
+.externalDialogBody{
+	position: var(--custom-position-ab);
+	top:0rem;	
+}
+@media (min-width: 0) and (orientation:portrait) {
+    .mainContent{
+        min-height: var(--core-content-container-portright-min-height) !important;
+        max-height: var(--core-content-container-portright-max-height) !important;
+    }
+}

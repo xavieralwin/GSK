@@ -1,0 +1,151 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+.bodyText{
+    margin-top: 80rem;
+    margin-left: 25rem;
+}
+/*overlay inline content css start*/
+div.ui-dialog[aria-describedby="dialogPI"] .swiper-container,
+div.ui-dialog[aria-describedby="dialogPIPopup"] .swiper-container, 
+div.ui-dialog[aria-describedby="dialogPIPopup2"] .swiper-container,
+div.ui-dialog[aria-describedby="dialogPIPopup3"] .swiper-container {
+    margin: 10 auto;
+    position: relative;
+    width: 100%;
+    height: 300rem;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 1;
+    float:left;
+	margin-top: 25rem;
+	margin-bottom:15rem;
+}
+
+/*Overlay Exteranal DialogBody body title css start*/
+div.ui-dialog[aria-describedby="dialogPIPopup4"], div.ui-dialog[aria-describedby="dialogPIPopup"], div.ui-dialog[aria-describedby="dialogPIPopup2"], div.ui-dialog[aria-describedby="dialogPIPopup3"]{
+	overflow:visible;
+}
+.externalDialogBody{
+	position:absolute;
+	top:0rem;
+	width:100%;	
+}
+#tab1, #tab5, #tab7, #tab9 {
+    width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: -38rem;
+    left: 8rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+	display:block;
+}
+#tab1 span, #tab5 span, #tab7 span, #tab9 span, #tab2 span, #tab6 span, #tab8 span, #tab10 span{
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+    font: normal 18rem 'HelveticaMedium', Arial;
+    color: var(--pres-background-color-5);
+	text-decoration:none;
+}
+#tab2, #tab4, #tab6, #tab8, #tab10{
+	width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: -38rem;
+    left: 240rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+	display:block;
+}
+.tab2, .tab4, .tab6, .tab8, .tab10{
+	color:#0049A0;
+	display:none;
+}
+
+/*inline content tabs css starts*/
+
+#tab3, #tab4 {
+    width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: 120rem;
+    left: 80rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+    display:block;
+}
+#tab3 span, #tab4 span{
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+    font: normal 18rem 'HelveticaMedium', Arial;
+    color: var(--pres-background-color-5);
+	text-decoration:none;
+}
+#tab4{	
+    left: 307rem;
+}
+.tab3, .tab4{
+	color: var(--pres-color-1);
+	position: absolute;
+	width: 453rem;
+	height: 232rem;
+	left: 80rem;
+	top: 156rem;
+	background: var(--pres-background-color-5);
+	overflow: hidden;
+	padding: 10rem;
+	border-bottom-right-radius: 15rem;
+	border-bottom-left-radius: 15rem;
+}
+.tab4{
+	color:#0049A0;
+	display:none;
+}
+#scroll1, #scroll2 {
+    position:relative;
+    left:0px;
+    height: 85%;
+    width: auto;
+    background:rgba(255,0,4,0);
+}
+#scroller {
+    width: 100%;
+    padding-right: 15rem;
+    box-sizing: border-box;
+}
+.activeColor{
+	background:#ec6608 !important;	
+}
+body.includeISI .inlinelink {
+font-size: 22rem;
+
+}
+
+body.includeISI .isiBody {
+    padding-top: 10rem;
+    font: 16rem/16rem HelveticaLight;
+    color: var(--pres-color-1);
+    height: 960rem;
+}
+.subText{
+    position: absolute;
+    width: var(--core-content-container-width);
+    text-align: center;
+    font-size: 90rem;
+    top: 290rem;
+    color: rgba(0,0,0,0.6);
+}

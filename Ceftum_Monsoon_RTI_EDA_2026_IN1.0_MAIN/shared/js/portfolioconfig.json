@@ -1,0 +1,113 @@
+/**************************************************/
+/* GSK Veeva Master Template - Presentation CSS   */
+/**************************************************/
+/* File version              3.0                  */
+/* Last modified             01/05/2023 */
+/* Last modified by          Design Center        */
+/**************************************************/
+
+var com = com || {};
+com.gsk = com.gsk || {};
+com.gsk.portfolioconfig = {
+    "hcpInformation":false,
+    "hcpExtID":"Call_Reminder_vod__c",
+    "hcpValues":["hcp1", "hcp2", "hcp3"],
+    "directAccessSideMenu": true,
+    "swipeBetweenChildPresentations": true,
+    "presentations":[
+        {
+            "presId":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"Title 1",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_000",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_004"
+        },
+        {
+            "presId":"MTGSK_test_Strawman_2023_MF1.0_MAI",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"Title 2",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_005",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_007"
+        },
+        {
+            "presId":"MTGSK_test_2_Strawman_2023_MF1.0_MA",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"Title 3",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_008",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_010"
+        },
+        {
+            "presId":"MTGSK_test_3_Strawman_2023_MF1.0_M",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"Title 4",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_011",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_015"
+        }
+    ],
+    "hcp1":[
+        {
+            "presId":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 1",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_000",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_004"
+        },
+        {
+            "presId":"MTGSK_test_1_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 2",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_006",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_008"
+        },
+        {
+            "presId":"MTGSK_test_2_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 3",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_009",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_012"
+        },
+        {
+            "presId":"MTGSK_test_3_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 4",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_014",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_016"
+        }
+    ],
+    "hcp2":[
+        {
+            "presId":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 1",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_000",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_008"
+        },
+        {
+            "presId":"MTGSK_test_Strawman_2023_MF1.0_MAIN",
+            "thumbName":"MTGSK_Strawman_2023_MF1.0_MAIN",
+            "menuTitle":"HCP 2",
+            "presentationName": "MTGSK Strawman 2023 MF1.0",
+            "dataFlow":"Main",
+            "firstSlide":"MTGSK_Strawman_2023_MF1.0_009",
+            "lastSlide":"MTGSK_Strawman_2023_MF1.0_015"
+        }
+    ]
+};

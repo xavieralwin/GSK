@@ -1,0 +1,251 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+/* Required to remove VideoJS play button
+ * see Video.js documentation - http://docs.videojs.com/docs/api/big-play-button.html
+ */
+.vjs-paused .vjs-big-play-button { display: none; }
+
+.vid1{
+	position: absolute;
+	left: 80rem;
+	top: 140rem;
+}
+.vid2{
+	position: absolute;
+	left: 80rem;
+	top: 375rem;
+}
+
+.VideoDialog1{
+	position: absolute;
+	left: 8rem;
+	top: 62rem;
+}
+
+.myvideo-js {
+    height: 100% !important;
+    width: 100% !important;
+	position: absolute;
+	z-index: 9999999;
+	left: 0;
+	top:0;
+}
+
+
+
+#VideoDialog1 {
+    position: absolute;
+    top: 575rem;
+    height: 50rem;
+    padding: 10px 0px;
+    left: 50rem;
+}
+#VideoDialog2 {
+    position: absolute;
+    top: 610rem;
+    height: 40rem;
+    padding: 10px 0px;
+    left: 50rem;
+}
+
+.vjs-control-bar_full{
+	width: 90%;
+	left: 5%;
+}
+button:focus, .vjs-default-skin button:focus{
+	background: none;
+}
+.video-js button{
+	padding: 0;
+	height: 100%;
+    width: 4em;
+}
+
+.video-js button:focus{
+	background: none;
+}
+.vjs-default-skin button:focus{
+	background: none !important;
+}
+.video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder:before, .vjs-icon-fullscreen-exit:before {
+    /*content: "\f108";*/	
+}
+#video1 video, #dialogTabPopup video{
+	width:100%;
+}
+
+
+/*overlay inline content css start*/
+div.ui-dialog[aria-describedby="dialogTab"] .swiper-container,
+div.ui-dialog[aria-describedby="dialogTabPopup"] .swiper-container, 
+div.ui-dialog[aria-describedby="dialogTabPopup2"] .swiper-container,
+div.ui-dialog[aria-describedby="dialogTabPopup3"] .swiper-container {
+    margin: 10 auto;
+    position: relative;
+    width: 100%;
+    height: 300rem;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 1;
+    float:left;
+	margin-top: 25rem;
+	margin-bottom:15rem;
+}
+
+/*Overlay Exteranal DialogBody body title css start*/
+div.ui-dialog[aria-describedby="dialogTabPopup4"], div.ui-dialog[aria-describedby="dialogTabPopup"], div.ui-dialog[aria-describedby="dialogTabPopup2"], div.ui-dialog[aria-describedby="dialogTabPopup3"]{
+	overflow:visible;
+}
+.externalDialogBody{
+	position:absolute;
+	top:0rem;
+	width:100%;	
+}
+#tab1 {
+    width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: -38rem;
+    left: 8rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+	display:block;
+}
+#tab1 span,#tab2 span, #tab3 span{
+    position: absolute;
+    top: 9rem;
+    left: 42rem;
+    font: normal 18rem 'HelveticaMedium', Arial;
+    color: var(--pres-background-color-5);
+	text-decoration:none;
+}
+#tab2{
+	width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: -38rem;
+    left: 240rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+	display:block;
+}
+#tab3{
+	width: 225rem;
+    height: 38rem;
+    position: absolute;
+    top: -38rem;
+    left: 472rem;
+    background: #999999;
+    border-top-right-radius: 15rem;
+    border-top-left-radius: 15rem;
+	display:block;
+}
+.tab2, .tab3{
+	/* color:#0049A0; */
+	display:none;
+}
+
+#scroll1, #scroll2 {
+    position:relative;
+    left:0px;
+    height: 85%;
+    width: auto;
+    background:rgba(255,0,4,0);
+}
+#scroller {
+    width: 100%;
+    padding-right: 15rem;
+    box-sizing: border-box;
+}
+.activeColor{
+	background:#ec6608 !important;	
+}
+
+/* Remote call video alter images styles start*/
+
+.videoPlayer1{
+    width: 450rem;
+    height: 190rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.videoPlayer2{
+    width: 450rem;
+    height: 190rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.videoPlayer3{
+    width: 100%;
+    height: 425rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.videoPlayer4{
+    width: 100%;
+    height: 410rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.videoPlayer5{
+    width: 100%;
+    height: 410rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+.videoPlayer6{
+    width: 100%;
+    height: 410rem;
+    background: url("../media/images/engage_poster.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+/* Remote call video alter images styles End*/
+
+/*media query for ipad pro11 devices */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2){    
+  #video1 video, #dialogTabPopup video{
+    width:95%;
+    padding-left: 50rem;
+  }  
+}
+
+video::after button.play-pause .background-tint{
+	display: none!important;
+}
+video button.play-pause .background-tint{
+	display: none!important;
+}
+
+video::-webkit-media-controls {
+  display:none !important;
+}
+
+button.center{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	background: none!important;
+	display: none!important;
+}
+.media-controls.inline button.play-pause.center > picture{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	opacity: 0 !important;
+}

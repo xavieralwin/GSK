@@ -1,0 +1,16 @@
+/* Augmentin_ABRS_eDA_Adult_Smart_eDA_Sept_2026_IN1.0_004 - slide-specific styles */
+/* Design-team artwork: full-frame photo, anchored to the bottom of the content frame */
+.hero-bg { position: absolute; left: 0; bottom: 0; width: 100%; height: auto; max-width: none; display: block; }
+
+/* QC fix: footnote lines brought up to the compliant 12rem minimum (were 8.29rem); white text over the hero photo */
+.hero-footnotes { position: absolute; left: 73.9rem; top: 640rem; width: 700rem; color: #ffffff; }
+
+/* QC fix: inline styles removed from index.html and declared here instead (auto-extracted, values unchanged) */
+.qc1 { left:445.95rem; top:63.6rem; line-height:27rem; }
+.qc2 { top:118.4rem; }
+.qc3 { top:207.8rem; }
+.qc4 { top:289.8rem; }
+.qc5 { top:400.9rem; }
+.qc6 { top:415.8rem; }
+.qc7 { top:486.6rem; }
+.qc8 { top:594rem; }

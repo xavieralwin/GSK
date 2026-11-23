@@ -1,0 +1,26 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+button{
+    margin-top: 0rem;
+}
+#scroll {
+    position:relative;
+    left: 25rem;
+    height: 85%;
+    width: 94%;
+    background:rgba(255,0,4,0);
+    top: 90rem;
+}
+
+#scroller{
+    width: 100%;
+    padding-right: 15rem;
+    box-sizing: border-box;
+}

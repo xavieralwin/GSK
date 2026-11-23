@@ -1,0 +1,84 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+body .bg {
+    background: #fff url('../media/images/background.png') 0 0 no-repeat;
+    background-size: 100%;
+    width: 1024rem;
+    height: 768rem;
+}
+.pageTitle.abbreviationsTitle {
+    top: 0rem;
+}
+div#referenceContent {
+    position: relative;
+}
+.referenceContent {
+    top: 80rem;
+    left: 25rem;
+    width: 94%;
+}
+#referenceList, #footnotesList, #abbreviationsList {
+    width: 94%;
+    margin-left: 22rem;
+}
+#fullscroll {
+    max-height: 520rem !important;
+}
+@media (min-width: 0) and (orientation:portrait) {
+    body .bg {
+        background: #fff url('../media/images/background-portrait.png') 0 0 no-repeat;
+        background-size: 100%;
+        width: 768rem;
+        height: 1024rem;
+    }
+    
+    .topNav {
+        left: 60rem;
+    }
+    .topNav #mtgskClose {
+        right: 248rem;
+    }
+    .mainContent .referencesTitle, .mainContent .footnotesTitle, .mainContent .abbreviationsTitle {
+        top: 20rem;
+    }
+    .references, .footnotes, .abbreviations {
+        width: 650rem;
+    }
+    #referencesScroller, #footnotesScroller, #abbreviationsScroller {
+        margin-top: 30rem;
+        max-height: 210rem;
+    }
+    .navBottom {
+        display: none !important;
+    }
+}
+@media (min-width: 0) and (orientation:landscape) {
+    body .bg {
+        background: #fff url('../media/images/background.png') 0 0 no-repeat;
+        background-size: 100%;
+        width: 1024rem;
+        height: 768rem;
+    }
+    .topNav {
+        left: 80rem;
+    }
+    .topNav #mtgskClose {
+        right: 30rem;
+    }
+    .mainContent .referencesTitle, .mainContent .footnotesTitle, .mainContent .abbreviationsTitle {
+        top: 0rem;
+    }
+    .references, .footnotes, .abbreviations {
+        width: 864rem;
+    }
+    #referencesScroller, #footnotesScroller, #abbreviationsScroller {
+        margin-top: 0rem;
+        max-height: 160rem;
+    }
+}

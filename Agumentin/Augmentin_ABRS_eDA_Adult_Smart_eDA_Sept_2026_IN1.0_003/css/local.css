@@ -1,0 +1,32 @@
+/* Augmentin_ABRS_eDA_Adult_Smart_eDA_Sept_2026_IN1.0_003 - slide-specific styles */
+/* Design-team artwork */
+.brand-bar { width: 13.8rem !important; background-image: url('../media/brand-bar.png'); }
+.callout { border: none; background: url('../media/callout.png') center / 100% 100% no-repeat; }
+
+/* QC fix: inline styles removed from index.html and declared here instead (auto-extracted, values unchanged) */
+.qc1 { left:30.55rem; top:69.81rem; width:13.8rem; height:126.9rem; }
+.qc2 { left:69rem; top:70.27rem; font-size:18.6rem; }
+.qc3 { left:58.3rem; top:87.7rem; width:273.05rem; height:auto; }
+.qc4 { left:69.3rem; top:146rem; font-size:12rem; }
+.qc5 { left:69.5rem; top:160.5rem; font-size:20.4rem; }
+.qc6 { left:69.5rem; top:180.3rem; font-size:20.4rem; }
+.qc7 { left:348.39rem; top:69.81rem; width:645.61rem; height:126.9rem; }
+.qc8 { left:375.5rem; top:102.2rem; font-size:26.7rem; }
+.qc9 { left:375.5rem; top:135.8rem; font-size:26.7rem; }
+.qc10 { left:62.28rem; top:252.84rem; width:900rem; font-size:19.09rem; }
+.qc11 { left:62.28rem; top:275.74rem; width:900rem; font-size:19.09rem; }
+.qc12 { left:534.66rem; top:339.65rem; width:2.2rem; height:108.15rem; }
+.qc13 { left:185.51rem; top:359.92rem; font-size:21.21rem; }
+.qc14 { left:652.02rem; top:359.92rem; font-size:21.21rem; }
+.qc15 { left:185.51rem; top:385.37rem; font-size:21.21rem; }
+.qc16 { left:652.02rem; top:385.37rem; font-size:21.21rem; }
+.qc17 { left:185.51rem; top:410.82rem; font-size:21.21rem; }
+.qc18 { left:652.02rem; top:410.82rem; font-size:21.21rem; }
+.qc19 { left:215.72rem; top:488.4rem; width:600.29rem; height:auto; }
+.qc20 { left:316.1rem; top:488.4rem; width:182.8rem; height:34.2rem; }
+.qc21 { left:520.6rem; top:496rem; font-size:19.09rem; color:#000000; }
+.qc22 { left:65.87rem; top:543.81rem; width:900rem; font-size:19.09rem; }
+.qc23 { left:65.87rem; top:566.72rem; width:900rem; font-size:19.09rem; }
+.qc24 { left:71.91rem; top:648.86rem; font-size:12rem; }
+.qc25 { color:#2a2a2d; }
+.qc26 { color:#2a2a2d; }

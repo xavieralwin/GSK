@@ -1,0 +1,68 @@
+/* Augmentin_ABRS_eDA_Adult_Smart_eDA_Sept_2026_IN1.0_002 - slide-specific styles */
+/* Design-team artwork */
+.brand-bar { width: 13.8rem !important; background-image: url('../media/brand-bar.png'); }
+.gold-vline { background: url('../media/gold-vline.png') center / 100% 100% no-repeat; }
+.guide-rule { background: url('../media/guide-rule.png') center / 100% 100% no-repeat; }
+/* Susceptibility chart: artwork 887 x 616 shown at 489.3 x 339.8; live-text labels positioned over it */
+.chart { position: absolute; left: 57.08rem; top: 253.00rem; width: 489.3rem; height: 339.8rem; font-family: 'AugArial', Arial, sans-serif; line-height: 1; white-space: nowrap; }
+.chart > img { position: absolute; left: 0; top: 0; width: 100%; height: auto; max-width: none; }
+.chart span { position: absolute; }
+.chart .ax-t { right: 384.5rem; font-size: 12rem; color: #28282D; }
+.chart .ax-title { left: 13.8rem; top: 178.8rem; width: 90rem; text-align: center; font-size: 12rem; color: #28282D; transform: rotate(-90deg); }
+.chart .val-t { width: 80rem; text-align: center; font-size: 16.4rem; font-weight: 700; }
+.chart .cap-t { left: 159.2rem; width: 220rem; top: 269.8rem; text-align: center; font-size: 12rem; color: #191919; }
+.chart .leg-t { top: 306.5rem; font-size: 12rem; letter-spacing: -0.3rem; font-weight: 700; color: #595959; }
+
+/* QC fix: footnote block repositioned as flowing text at the compliant 12rem minimum (was 6.89-7.95rem across 7 absolute-positioned lines) */
+/* Fix: at the compliant 12rem font-size this text wraps to ~11 lines (was 7 lines at the old
+   6.89-7.95rem sizes), which no longer fits the ~82rem of space left above the content-frame's
+   bottom edge (680rem) - it was overflowing through the footer logo and off the card. Constrained
+   to the available height and made scrollable (reusing the already-fixed .pi-scroll visible
+   scrollbar) so the full legal text stays reachable without spilling outside the frame. */
+/* Fix: width was 900rem (right edge at 957rem), which directly overlapped the decorative
+   corner-bottom-right.png graphic (occupies x:840.7-994, y:562-680) sitting in the same bottom-right
+   corner - the scrollbar/text was rendering on top of it. Narrowed so the box's right edge (825.3rem)
+   clears the artwork with ~15rem to spare. */
+.chart-footnotes { position: absolute; left: 57.27rem; top: 598rem; width: 768rem; height: 78rem; padding-right: 10rem; }
+
+/* QC fix: inline styles removed from index.html and declared here instead (auto-extracted, values unchanged) */
+.qc1 { left:30.55rem; top:69.81rem; width:13.8rem; height:126.9rem; }
+.qc2 { left:69rem; top:70.27rem; font-size:18.6rem; }
+.qc3 { left:58.3rem; top:87.7rem; width:273.05rem; height:auto; }
+.qc4 { left:69.3rem; top:146rem; font-size:12rem; }
+.qc5 { left:69.5rem; top:160.5rem; font-size:20.4rem; }
+.qc6 { left:69.5rem; top:180.3rem; font-size:20.4rem; }
+.qc7 { left:348.39rem; top:69.81rem; width:645.61rem; height:126.9rem; }
+.qc8 { left:375.5rem; top:102.2rem; font-size:26.7rem; }
+.qc9 { left:375.5rem; top:135.8rem; font-size:26.7rem; }
+.qc10 { left:58.53rem; top:215.33rem; width:900rem; font-size:19.09rem; }
+.qc11 { top:112.6rem; }
+.qc12 { top:125.8rem; }
+.qc13 { top:139.1rem; }
+.qc14 { top:152.3rem; }
+.qc15 { top:165.5rem; }
+.qc16 { top:178.8rem; }
+.qc17 { top:192.0rem; }
+.qc18 { top:205.3rem; }
+.qc19 { top:218.5rem; }
+.qc20 { top:231.7rem; }
+.qc21 { top:245.5rem; }
+.qc22 { left:118.3rem; top:111.7rem; color:#0CA96A; }
+.qc23 { left:191.1rem; top:191.2rem; color:#7F7F7F; }
+.qc24 { left:265.6rem; top:154.2rem; color:#FF5722; }
+.qc25 { left:341.2rem; top:147.0rem; color:#45C8C6; }
+.qc26 { left:121.9rem; }
+.qc27 { left:180.4rem; }
+.qc28 { left:283.5rem; }
+.qc29 { left:365.7rem; }
+.qc30 { left:111.28rem; top:253.00rem; width:382.00rem; height:57.90rem; }
+.qc31 { font-size:16.43rem; line-height:19.72rem; }
+.qc32 { left:-148.27rem; top:324.70rem; width:900rem; font-size:12.72rem; }
+.qc33 { left:573.36rem; top:286.11rem; width:2.5rem; height:295.29rem; }
+.qc34 { left:688.33rem; top:269.14rem; width:147.8rem; height:auto; }
+.qc35 { left:614.62rem; top:453.66rem; width:294.23rem; height:1rem; }
+.qc36 { left:551.73rem; top:421.2rem; width:420rem; font-size:25.45rem; }
+.qc37 { left:551.73rem; top:463.7rem; width:420rem; font-size:25.45rem; }
+.qc38 { left:551.73rem; top:490.98rem; width:420rem; font-size:19.09rem; }
+.qc39 { left:551.73rem; top:513.88rem; width:420rem; font-size:19.09rem; }
+.qc40 { left:551.73rem; top:536.78rem; width:420rem; font-size:19.09rem; }

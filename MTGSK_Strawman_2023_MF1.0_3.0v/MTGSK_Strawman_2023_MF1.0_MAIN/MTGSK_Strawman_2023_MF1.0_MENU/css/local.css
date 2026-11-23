@@ -1,0 +1,44 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+/* Menu iScroll styles */
+#customMenuWrapper .uiOverlay{
+    display: none;
+}
+.customMenuKeyMessage {
+    width: 290rem;
+    margin-right: 20rem;
+    list-style: none;
+    /* display: flex; */
+}
+#customMenuWrapper.inlineMenu #customMenu {
+    /* top: 110rem; */
+    left: 3%;
+    height: 500rem;
+    border: none;
+    background-color: transparent;
+    width: 94%;
+}
+#menuScroller {
+    position:relative;
+    left: 0;
+    top: 20rem;
+    height: 90%;
+    width: auto;
+}
+
+#menuScroller li {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+#customMenuWrapper.inlineMenu {
+    top: 110rem;
+    height: 568rem;
+    background: transparent;
+}

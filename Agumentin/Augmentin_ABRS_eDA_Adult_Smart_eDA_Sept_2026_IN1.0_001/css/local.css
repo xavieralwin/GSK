@@ -1,0 +1,20 @@
+/* Augmentin_ABRS_eDA_Adult_Smart_eDA_Sept_2026_IN1.0_001 - slide-specific styles */
+/* Design-team artwork */
+.title-pill-art { background: url('../media/title-pill.png') center / 100% 100% no-repeat; }
+.outcome-art { position: absolute; left: 706.02rem; top: 280.27rem; width: 287.98rem; height: 190rem; overflow: hidden; } /* clipped at the frame edge */
+.outcome-art img { display: block; width: 362.4rem; max-width: none; height: auto; }
+
+/* QC fix: inline styles removed from index.html and declared here instead (auto-extracted, values unchanged) */
+.qc1 { font-size:30.29rem; }
+.qc2 { left:132.81rem; top:221.43rem; width:381.2rem; height:auto; }
+.qc3 { left:132.81rem; top:357.67rem; width:381.2rem; height:auto; }
+.qc4 { left:132.81rem; top:492.86rem; width:381.2rem; height:auto; }
+.qc5 { left:280.37rem; top:272.34rem; font-size:21.21rem; }
+.qc6 { left:280.37rem; top:396.17rem; font-size:21.21rem; }
+.qc7 { left:280.37rem; top:424.38rem; font-size:21.21rem; }
+.qc8 { left:280.37rem; top:530.64rem; font-size:21.21rem; }
+.qc9 { left:280.37rem; top:556.08rem; font-size:21.21rem; }
+.qc10 { left:355.26rem; top:460.24rem; width:900rem; font-size:25.45rem; }
+.qc11 { left:355.27rem; top:491.8rem; width:900rem; font-size:25.45rem; }
+.qc12 { left:71.91rem; top:648.85rem; font-size:12rem; }
+.qc13 { color:#231f20; }

@@ -1,0 +1,112 @@
+/*=================================================
+			Custom flow css starts
+=================================================*/
+* {
+  user-select: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+}
+.custom-flow-container {
+    width: 96%;
+    margin: 2%;
+}
+.custom-flow-container .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.custom-flow-container .show {
+    display: block !important;
+}
+.custom-flow-container .connectedSortable {
+    border: 1rem solid #eee;
+    width: 100%;
+    height: 250rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 5rem 0 0 0;
+    margin-right: 10rem;
+    display: inline-block;
+    background-color: var(--pres-background-color-5);
+}
+.custom-flow-container .sortable1, .custom-flow-container .sortable2{
+    margin-bottom: 20rem;
+}
+.custom-flow-container .connectedSortable li {
+    margin: 0 5rem 5rem 5rem;
+    /* padding: 5rem; */
+    font-size: 1.2em;
+    width: 120rem;
+    display: inline-block;
+    height: 90rem;
+}
+.custom-flow-nav {
+    clear: both;
+}
+.custom-flow-container label.label-add-flow {
+    position: var(--pres-position-ab);
+    left: -9999rem;
+}
+.custom-flow-container input[type="button"] {
+    padding: 3rem 5rem;
+    min-width: 100rem;
+    height: 44rem;
+    line-height: 44rem;
+    font-size: 18rem;
+    cursor: pointer;
+}
+.custom-flow-container input.add-flow {
+    height: 44rem;
+    font-size: 18rem;
+}
+.custom-flow-container .custom-drop-down {
+    position: relative;
+    display: inline-block;
+}
+.custom-flow-container .dropdown-content {
+    position: absolute;
+    bottom: 55rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 3rem;
+}
+.custom-flow-container .dropdown-content::after {
+    content: '';
+    position: var(--pres-position-ab);
+    bottom: -10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f4f4f4;
+    z-index: -1;
+}
+.custom-flow-container .custom-flow-lists {
+    list-style-type: none;
+    padding: 0rem;
+    margin: 0;
+}
+.custom-flow-container .custom-flow-lists li {}
+.custom-flow-container .custom-flow-lists li a {
+    display: block;
+    padding: 12rem 5rem;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--pres-color-5);
+}
+.custom-flow-container .custom-flow-lists li.active {
+    pointer-events: none;
+}
+.custom-flow-container .custom-flow-lists li.active a {
+    font-weight: bold;
+}
+.custom-flow-container .custom-flow-lists li a:hover {
+    background-color: #ddd;
+}

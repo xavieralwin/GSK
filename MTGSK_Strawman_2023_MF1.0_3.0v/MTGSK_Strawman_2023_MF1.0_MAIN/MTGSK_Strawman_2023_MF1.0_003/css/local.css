@@ -1,0 +1,90 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+button.two, button.three{
+	display:block;	
+	margin-bottom:10rem;
+}
+.two.active, .three.active{
+	background: #414040;
+	color:var(--pres-background-color-5);	
+}
+.swipeText{
+    position: absolute;
+    font: var(--pres-font-family-6);
+    font-size: 20rem;
+    color: var(--pres-color-1);
+}
+.swipeText1{
+    top: 300rem;
+    left: 30rem;
+}
+.swipeText2{
+    top: 120rem;
+    left: 20rem;
+    width: var(--core-content-container-width);
+    text-align: center;
+}
+.swipeText3{
+    top: 300rem;
+    left: 650rem;
+}
+.swipeText4{
+    top: 480rem;
+    left: 20rem;
+    width: var(--core-content-container-width);
+    text-align: center;
+}
+.swipeText1:after{
+    content:"";
+    width: 0rem;
+    height: 0rem;
+    border-right: 20rem solid var(--pres-background-color-5);
+    border-bottom: 20rem solid transparent;
+    border-left: 20rem solid transparent;
+    border-top: 20rem solid transparent;
+    position: absolute;
+    left: 325rem;
+    top: -10rem;
+}
+.swipeText2:after{
+    content:"";
+    width: 0rem;
+    height: 0rem;
+    border-right: 20rem solid transparent;
+    border-bottom: 20rem solid var(--pres-background-color-5);
+    border-left: 20rem solid transparent;
+    border-top: 20rem solid transparent;
+    position: absolute;
+    left: 455rem;
+    top: 52rem;
+}
+.swipeText3:after{
+    content:"";
+    width: 0rem;
+    height: 0rem;
+    border-right: 20rem solid transparent;
+    border-bottom: 20rem solid transparent;
+    border-left: 20rem solid var(--pres-background-color-5);
+    border-top: 20rem solid transparent;
+    position: absolute;
+    left: -56rem;
+    top: -10rem;
+}
+.swipeText4:after{
+    content:"";
+    width: 0rem;
+    height: 0rem;
+    border-right: 20rem solid transparent;
+    border-bottom: 20rem solid transparent;
+    border-left: 20rem solid transparent;
+    border-top: 20rem solid var(--pres-background-color-5);
+    position: absolute;
+    left: 455rem;
+    top: -69rem;
+}

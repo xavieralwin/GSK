@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GSK Master Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <link rel="stylesheet" href="../shared/css/jquery-ui.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/swiper-bundle.css" type="text/css" />
+        <link rel="stylesheet" href="../shared/css/core.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/custom.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/calendar.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/custom-flow.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="../shared/css/presentation.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="css/local.css" type="text/css" charset="utf-8"/>
+    </head>
+    <body>
+    <div id="container" data-slide="MTGSK_Strawman_2023_MF1.0_016">
+        <!-- Left and right double click navigation -->
+        <div id="doubleClickLeft" class="navBumper"></div>
+        <div id="doubleClickRight" class="navBumper"></div>
+        <!-- Portrait mode double click zoom -->
+        <div id="doubleClickCentre"></div>
+
+        <!-- slide html -->
+        <div class="mainContent contentFrame" id="contentFrame">
+            <div class="pageTitle">Call Summary</div><br>
+            <div class="title1">Today we have discussed:</div>
+             <div id="scroll1" class="scrollable">
+                <div id="scroller1" class="scrollableInner">
+                	<div id="feedbackContainer1">                                        
+                        <label><input id="slide16SummaryCheckbox1" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Efficacy" data-question="Today discussed"/><span>Efficacy</span><br /><br /></label>   
+                        <label><input id="slide16SummaryCheckbox2" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Patient profile" data-question="Today discussed"/> <span>Patient profile</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox3" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Indication" data-question="Today discussed"/> <span>Indication</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox4" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Safety" data-question="Today discussed"/> <span>Safety</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox5" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Features" data-question="Today discussed"/> <span>Features</span><br /><br /></label>
+                                             
+                    </div>
+            	</div>
+            </div>
+             <div class="title2">Next time we shall discuss:</div> 
+            <div id="scroll2" class="scrollable">
+                <div id="scroller2" class="scrollableInner">
+                	<div id="feedbackContainer2">                                      
+                        <label><input id="slide16SummaryCheckbox6" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Efficacy" data-question="Next time discuss"/><span>Efficacy</span><br /><br /></label>   
+                        <label><input id="slide16SummaryCheckbox7" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Patient profile" data-question="Next time discuss"/> <span>Patient profile</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox8" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Indication" data-question="Next time discuss"/> <span>Indication</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox9" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Safety" data-question="Next time discuss"/> <span>Safety</span><br /><br /></label>
+                        <label><input id="slide16SummaryCheckbox10" class="dynamicFeedback" type="checkbox" data-type="Call Summary" data-description="Features" data-question="Next time discuss"/> <span>Features</span><br /><br /></label>
+                        
+                        
+                    </div>
+            	</div>
+            </div>
+            <button class="sendFeedback" >Submit Summary</button>
+            
+        </div>
+        <!-- end of slide html -->
+
+        <!-- mtgsk html -->
+        <div class="footer">
+            <img src="../shared/media/images/footerlogo_new.png"/>
+        </div>
+        <div class="navBottom">
+            <div id="home" class="gotoSlide"></div>
+            <div id="menu" class="gotoSlide logEmbedded" data-description="Embedded Menu"></div>
+            <div id="pi" class="gotoSlide logEmbedded" data-description="Embedded PI"></div>
+            <div id="references" class="gotoSlide logEmbedded" data-description="Embedded References"></div>
+            <div id="email"></div>
+            <div id="objection" class="gotoSlide logEmbedded" data-description="Embedded Objections"></div>
+        </div>
+        <!-- end mtgsk html -->
+    </div>
+
+    <!-- Background settings required for pdf style portrait mode zoom -->
+    <div class="bg" id="bg"><!--<img src="media/images/background.png" height="768" />--></div>
+    <script src="../shared/js/jquery-v3.6.1.min.js"></script>
+    <script src="../shared/js/jquery-ui.js"></script>
+    <script src="../shared/js/jquery.ui.touch-punch.js"></script>
+    <script src="../shared/js/veeva-library.js"></script>
+    <script src="../shared/js/config.json"></script>
+    <script src="../shared/js/portfolioconfig.json"></script>
+    <script src="../shared/js/calendar.json"></script>
+    <script src="../shared/js/fastclick.min.js"></script>
+    <script src="../shared/js/hammer.min.js"></script>
+    <script src="../shared/js/iscroll.js"></script> 
+    <script src="../shared/js/swiper-bundle.js"></script>
+    <script src="../shared/js/qrcode.js"></script>
+    <script src="../shared/js/mt.js"></script>
+    <script src="../shared/js/calendar.js"></script>
+    <script src="../shared/js/presentation.js"></script>
+    <script src="../shared/js/race.js"></script>
+	<script src="../shared/js/Attitudinal_Segmentation.js"></script>
+    <script src="js/local.js"></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+/* Table CSS Start here*/
+/*#tblData tbody tr td{
+    border: 1px solid;
+}*/
+h2{
+    margin-top: 30rem;
+    margin-left: 25rem;
+}
+button{
+    margin-top: 0rem;
+}
+#tblData{
+    width: 100%;
+    
+}
+#tblData thead {
+    background-color:#AAA4A4;
+}
+.btnSave,.btnDelete,.btnEdit{
+    width:30px;
+}
+#scroll {
+    position: absolute;
+    height: 380rem;
+    width: 75.4%;
+    overflow: hidden;
+}
+#scroller{
+    width: 100%;
+}
+#tblData thead tr th {
+    height: 42rem;
+    text-align: center;
+    font-size: 16rem;
+    font-weight: bold;
+    color: var(--pres-color-1);
+    font-family: Arial;
+    line-height: 16rem;
+}
+.headerStyle {
+    background-color: #AAA4A4;
+    height: 38rem;
+    border: none;
+    text-align: center;
+    font-size: 16rem;
+    width: 100%;
+    font-weight: bold;
+    color: var(--pres-color-1);
+    line-height:38rem;
+}
+input.headerStyle:focus {
+    outline:none;
+}
+.disableBtn{
+    opacity:0.4;
+    pointer-events:none;
+}
+#tblData tbody tr{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    width: 174px;
+    font-weight:bold;
+    color:var(--pres-color-1);
+}
+#tblData tbody tr.rowBg:nth-child(even){
+    background-color: #AAA4A4;
+}
+#wrapperTable tbody input {
+    height: 38rem;
+    font-size: 22rem;
+    width: 98%;
+    margin-top: 8rem;
+}
+
+#wrapperTable{
+  height:380rem;
+  position:relative;
+  width: 100%;
+    left: 25rem;
+}
+.mainContent button {
+    border-radius: 0px;
+    height: 46rem;
+    background: rgba(112,54,78,0);
+    margin-bottom: 15rem;
+    font-size: 15rem;
+    padding: 0rem 30rem;
+    text-align: center;
+}
+.scrollStyle {
+    overflow-x: scroll;
+    position: relative;
+    overflow-y: hidden;
+}
+.fixedScroll.iScrollVerticalScrollbar.iScrollLoneScrollbar{
+    position: fixed !important;
+    left: 913px;
+    z-index: 99999999 !important;
+    top: 63px !important;
+}

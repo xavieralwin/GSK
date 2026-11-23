@@ -1,0 +1,266 @@
+/**************************************************/
+/* GSK Veeva Master Template - Core CSS           */
+/**************************************************/
+/* File version              3.0                  */
+/* Last modified             01/05/2023 */
+/* Last modified by          Design Center        */
+/**************************************************/
+:root {
+    /* Background Color */
+    --core-background-color:var(--pres-background-color-5);
+    /* Width */
+    --core-max-width: 1024rem;
+    --core-full-width: 100%;
+    /* Height */
+    --core-max-height: 768rem;
+    --core-full-height: 100%;
+    /* Margin */
+    --core-margin-left: auto;
+    --core-margin-right: auto;
+    
+    /* Content container margin */
+    --core-content-container-min-height: 606rem;
+    --core-content-container-max-height: 642rem;
+    
+    --core-content-container-portright-min-height: 862rem;
+    --core-content-container-portright-max-height: 898rem;
+    
+    --core-content-container-margin-bottom-min-height: 88rem;
+    --core-content-container-margin-bottom-max-height: 124rem;
+    
+    --core-content-container-margin-left: 30rem;
+    --core-content-container-margin-right: 30rem;
+    --core-content-container-margin-top: 38rem;
+    --core-content-container-margin-bottom: calc(768rem - var(--core-content-container-margin-top) - var(--core-content-container-height));
+    
+    --core-content-container-portright-margin-bottom: calc(1024rem - var(--core-content-container-margin-top) - var(--core-content-container-portright-height));
+    /* Min and Max height for bottom must use between 11.5% to 16% as per guidelines */
+    --core-content-container-border-radius: 15rem;
+    /* Content container width */
+    --core-content-container-width: 964rem;
+    --core-content-container-background-color: rgba(211,210,210,1);
+    /* Position */
+    --core-position-ab: absolute;
+    --core-position-top:  0;
+    --core-position-left:  0;
+    --core-overflow-hide: hidden;
+    
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: auto;
+}
+
+html {
+	font-size: 0.1302083vmin !important;
+}
+
+body {
+    position: var(--core-position-ab);
+	width: var(--core-full-width);
+	height: var(--core-full-height);
+	font-size: 1.6rem;
+    margin: 0;
+	margin-left: var(--core-margin-left);
+	margin-right: var(--core-margin-right);
+    overflow: var(--core-overflow-hide);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: var(--pres-color-1);
+    -webkit-font-smoothing: antialiased;
+}
+sup.gotoRef {
+    display: inline-block;
+    padding: 15rem;
+    margin: -15rem;
+}
+#container {
+    position: var(--core-position-ab);
+    z-index: 1;
+    top: var(--core-position-top);
+    -webkit-perspective: 1000rem;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0rem, 0, 0);
+    overflow: var(--core-overflow-hide);
+}
+#container::-webkit-scrollbar {
+    display: none;
+}
+#zoomOverlay {
+    position: var(--core-position-ab);
+    top: var(--core-position-top);
+    left: var(--core-position-left);
+    width: var(--core-max-width);
+    height: var(--core-max-height);
+    z-index: 999999999;
+}
+.bg {
+    position: var(--core-position-ab);
+    top: var(--core-position-top);
+    z-index: -1;
+	overflow: var(--core-overflow-hide);
+}
+
+.bg img {
+	width: var(--core-full-width);
+	height: 100%
+}
+
+#container, .bg {
+	width: 133.334vh;
+	height: 100vh;
+	margin-left: var(--core-margin-left);
+	margin-right: var(--core-margin-right);
+	left: var(--core-position-left);
+	right: 0;
+	background-color: var(--pres-background-color-5);
+}
+
+#doubleClickLeft {
+    position: var(--core-position-ab);
+    z-index: 10;
+    width: 50rem;
+    top: var(--core-position-top);
+    left: var(--core-position-left);
+    height: 690rem;
+}
+#doubleClickRight {
+    position: var(--core-position-ab);
+    z-index: 10;
+    width: 50rem;
+    top: var(--core-position-top);
+    right: 0;
+    height: 690rem;
+}
+#doubleClickCentre {
+    display: none;
+    position: var(--core-position-ab);
+    z-index: 10;
+    width: 924rem;
+    height: var(--core-full-height);
+    top: var(--core-position-top);
+    left: 72rem;
+}
+.header,
+.navBottom,
+.footer {
+    position: var(--core-position-ab);
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+}
+.footer div{
+    float: left;
+}
+.header {
+    z-index: 11;
+    width: 5.567%;
+    height: 7.43%;
+    top: 3.227%;
+    right: 2.419%;
+}
+
+.navBottom {
+	width: 80%;
+	height: var(--core-content-container-margin-bottom);
+	left: 4.83%;
+	bottom: 0;
+	text-align: left;
+	z-index: 9998;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+    bottom: 0rem;
+    right: var(--core-content-container-margin-right);
+    z-index: 20;
+    height: var(--core-content-container-margin-bottom) !important;
+    display: flex;
+    align-items: center;
+}
+.footer, .navBottom, .navSubSlide {
+    min-height: var(--core-content-container-margin-bottom-min-height) !important;
+    max-height: var(--core-content-container-margin-bottom-max-height) !important;
+}
+.dialogLoading {
+    margin-left: 1024rem;
+}
+
+/* iScroll */
+.scrollable {
+    overflow: var(--core-overflow-hide);
+    -webkit-overflow-scrolling: touch;
+    z-index: 20;
+}
+.scrollableInner {
+    position: var(--core-position-ab);
+    z-index: 20;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.noTitlebar .iScrollVerticalScrollbar {
+    margin-top: 55rem;
+}
+.refQuickLinkDialogReferences  .iScrollVerticalScrollbar {
+    margin-top: 0;
+}
+/* Content loader iframe */
+iframe.contentLoader {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.tab.activeColor{	
+	pointer-events: none;
+}
+
+/** 
+ * Restrict min-width: 768px & min-height: 1024px in portrait mode;
+ */
+
+@media (min-width: 0) and (orientation:portrait) {
+	#container, .bg {
+		position: fixed;
+	    width: var(--core-full-width);
+        height: var(--core-full-height);
+		min-width: 768px;
+		min-height: 1024px;
+		margin:auto;
+		left: var(--core-position-left);
+		right: 0;
+		top: var(--core-position-top);
+		bottom: 0;
+    }
+	.header {
+		z-index: 11;
+		height: 5.567%;
+		width: 7.43%;
+		right: 3.227%;
+		top: 2.419%;
+	}
+    .navBottom {
+	    height: var(--core-content-container-portright-margin-bottom);
+    }
+
+    .footer {
+        height: var(--core-content-container-portright-margin-bottom) !important;
+    }
+}

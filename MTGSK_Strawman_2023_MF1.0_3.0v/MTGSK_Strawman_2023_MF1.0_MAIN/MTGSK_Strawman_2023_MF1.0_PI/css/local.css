@@ -1,0 +1,24 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+/* PI iScroll styles */
+#piScroller {
+    position:relative;
+    left: 25rem;
+    top: 12%;
+    height: 85%;
+    width: 95%;
+    overflow-y: hidden;
+}
+#piWrapper {
+    position: relative;
+    top: 100rem;
+    left: 25rem;
+    width: 96%;
+}

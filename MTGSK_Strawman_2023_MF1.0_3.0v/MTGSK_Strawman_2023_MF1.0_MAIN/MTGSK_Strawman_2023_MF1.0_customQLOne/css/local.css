@@ -1,0 +1,23 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+/* Objection iScroll styles */
+#customQLScroller {
+    position: relative;
+    left: 25rem;
+    height: 83%;
+    width: 95%;
+    top: 100rem;
+}
+#customQLScrollerInner{
+	width: 97%;
+}
+#inlineContent_c1{
+    height: 530rem !important;
+}

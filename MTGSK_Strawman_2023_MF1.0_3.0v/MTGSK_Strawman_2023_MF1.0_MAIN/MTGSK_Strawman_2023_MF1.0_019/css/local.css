@@ -1,0 +1,127 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+.bodyText {
+    width: 95%;
+    margin-left: 25rem;
+}
+#CalendarDialog1{
+    margin-top: 15rem;
+}
+button{
+    margin-top: 80rem;
+    margin-left: 0rem;
+}
+.callTablesTable{
+	height:350rem;
+}
+.reach-block {
+    position: fixed;
+    right: -20rem;
+    top: 178rem;
+}
+.reach-block li{
+    width: 160rem;
+    height: 46rem;
+    background-image: linear-gradient(to right, rgba(191, 181, 181, 1) , rgba(255,255,255, 1));    
+    color: #eb6b14;
+    list-style: none;
+    font-size: 16rem;
+    margin-bottom: 10rem;
+    padding:12rem 12rem;
+    border-radius: 20rem;
+}
+.reach-block li.active{
+	color:var(--pres-background-color-5);
+	 background-image: linear-gradient(to right, #eb6b14 , #eb6b14);
+	 opacity:0.9;
+}
+.Attitudinal_Segmentation-block {
+    position: fixed;
+    right: -20rem;
+    top: 178rem;
+    display: none
+}
+.Attitudinal_Segmentation-block li{
+    width: 160rem;
+    height: 46rem;
+    background-image: linear-gradient(to right, rgba(191, 181, 181, 1) , rgba(255,255,255, 1));    
+    color: #eb6b14;
+    list-style: none;
+    font-size: 16rem;
+    margin-bottom: 10rem;
+    padding:12rem 12rem;
+    border-radius: 20rem;
+}
+.Attitudinal_Segmentation-block li.active, .reach-block li.active{
+	color:var(--pres-background-color-5);
+	 background-image: linear-gradient(to right, #eb6b14 , #eb6b14);
+	 opacity:0.9;
+}
+
+
+
+/* QR code start */
+
+.qr-code-generator {
+width: 500px;
+margin: 0 auto;
+}
+
+.qr-code-generator * {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#qrcode {
+width: 128px;
+height: 128px;
+margin: 0 auto;
+text-align: center;
+}
+
+#qrcode a {
+font-size: 0.8em;
+}
+
+.qr-url, .qr-size {
+padding: 0.5em;
+border: 1px solid #ddd;
+border-radius: 2px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.qr-url {
+width: 79%;
+}
+
+.qr-size {
+width: 20%;
+}
+
+.generate-qr-code {
+display: block;
+width: 100%;
+margin: 0.5em 0 0;
+padding: 0.25em;
+font-size: 1.2em;
+border: none;
+cursor: pointer;
+background-color: #e5554e;
+color: var(--pres-background-color-5);
+}
+/* QR code End */

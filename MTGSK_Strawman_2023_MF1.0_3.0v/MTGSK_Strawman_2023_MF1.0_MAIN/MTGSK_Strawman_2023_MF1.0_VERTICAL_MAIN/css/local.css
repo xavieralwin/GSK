@@ -1,0 +1,39 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+.uiOverlay {
+    
+    width: var(--core-content-container-portright-width);
+    height: var(--core-content-container-portright-height);
+}
+[aria-describedby="portraitDialog"]{
+    max-height: 800rem !important;
+}
+body.portrait .bg {
+    background: #fff url('../media/images/background2.png') 0 0 no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 0) and (orientation:portrait) {
+    body.portrait .bg {
+        background: #fff url('../media/images/background.png') 0 0 no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .navBottom{
+        display: none !important;
+    }
+}
+@media (min-width: 0) and (orientation:landscape) {    
+    .navBottom{
+       display: block !important;
+    }
+}

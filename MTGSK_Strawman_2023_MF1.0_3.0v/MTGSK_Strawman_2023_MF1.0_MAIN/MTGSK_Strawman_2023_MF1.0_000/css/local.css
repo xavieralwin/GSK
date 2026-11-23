@@ -1,0 +1,79 @@
+/* Local CSS */
+.mainContent {
+    /*background-image:url("../media/images/background.png");
+    background-size: var(--core-content-container-width) var(--core-content-container-height);
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: var(--core-content-container-background-color);
+}
+
+.referencesTest {
+    position: absolute;
+    bottom: 16rem;
+    left: 700rem;
+    margin-bottom: 0rem;
+}
+
+.callTablesTable{
+	height:350rem;
+}
+.reach-block {
+    position: absolute;
+    right: 0rem;
+    top: 178rem;
+    display: none;
+}
+.reach-block li{
+    width: 100rem;
+    /* height: 46rem; */
+    /* background-image: linear-gradient(to right, rgba(191, 181, 181, 1) , rgba(255,255,255, 1)); */
+    color: var(--pres-color-1);
+    list-style: none;
+    font-size: 16rem;
+    margin-bottom: 10rem;
+    padding: 6rem 0rem;
+    border-radius: 5rem;
+    background-color: rgba(191, 181, 181, 1);
+    text-align: center;
+}
+.reach-block li.active{
+	color:var(--pres-background-color-5);
+	 background-image: linear-gradient(to right, #eb6b14 , #eb6b14);
+	 opacity:0.9;
+}
+.Attitudinal_Segmentation-block {
+    position: absolute;
+    right: 0rem;
+    top: 178rem;
+    display: none;
+}
+.Attitudinal_Segmentation-block li{
+    width: 80rem;
+    /* height: 46rem; */
+    /* background-image: linear-gradient(to right, rgba(191, 181, 181, 1) , rgba(255,255,255, 1)); */
+    color: var(--pres-color-1);
+    list-style: none;
+    font-size: 16rem;
+    margin-bottom: 10rem;
+    padding: 6rem 6rem;
+    border-radius: 5rem;
+    background-color: rgba(191, 181, 181, 1);
+}
+.Attitudinal_Segmentation-block li.active, .reach-block li.active{
+	color:var(--pres-background-color-5);
+	 background-image: linear-gradient(to right, #eb6b14 , #eb6b14);
+	 opacity:0.9;
+}
+
+
+
+/* QR code start */
+.qrcode{
+    position: absolute;
+    bottom: 70rem;
+    left: 25rem;
+    padding: 10rem;
+    background: var(--pres-background-color-5);
+}
+
+/* QR code End */
